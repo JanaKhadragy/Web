@@ -1,0 +1,80 @@
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 20px 20px;
+    padding: 80px;
+}
+.sub-heading{
+    color:gray;
+}
+.main{
+    font-weight: 600; 
+}
+.osama{
+    background-color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.ahmed{
+    background-color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px;
+    grid-row: span 2; 
+}
+.shady{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px;
+    grid-row: span 6;
+}
+.mohamed{
+    background-color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px;
+    grid-row: 3/7;
+}
+.mahmoud{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px; 
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+.ezz{
+    background-color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px;
+    grid-column: 2/4;
+    grid-row: 5/7;
+}
+.mohamed2{
+    background-color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px;
+}
+.ibrahim{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px;
+}
+.gamal{
+    background-color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px;
+}
+.eman{
+    background-color: white;
+    border-bottom: 5px solid rgb(255, 119, 0);
+    padding: 10px;
+}

@@ -1,0 +1,67 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;font-family: sans-serif;
+    font-weight: 700;
+  }
+div{
+    display: grid;
+    grid-template-columns: auto auto; 
+    background-color: lightskyblue;
+    color: white;
+    grid-gap: 20px 20px;
+}
+.one{
+    justify-content: center;
+    align-content: center;
+    grid-column: span 5;  
+    order:8;
+}
+.two{
+    justify-content: center;
+    align-content: center;
+    grid-column: span 4;
+    order:2;
+}
+.three{
+    justify-content: center;
+    align-content: center;
+    order:3;
+}
+.four{
+    justify-content: center;
+    align-content: center;
+    order:4;
+}
+.five{
+    justify-content: center; 
+    align-content: center;
+    grid-row: 3/6; 
+    order:8;
+    grid-column: 2/6;
+    order:5;
+}
+.six{
+    justify-content: center;
+    align-content: center;
+    order:6;
+}
+.seven{
+    justify-content: center;
+    align-content: center;
+    order:7;
+}
+.eight{
+    justify-content: center;
+    align-content: center;
+    grid-column: span 5;
+    order:1;
+}
+ 

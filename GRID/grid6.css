@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+  }
+  div{
+    display: grid; 
+    color: white;
+    gap: 15px 5px;
+    text-align: center; 
+    grid-template-columns: 2% 48% 48% 2%;
+    grid-template-rows: 90% 10%; 
+    background-color: rgb(37, 36, 36);
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }

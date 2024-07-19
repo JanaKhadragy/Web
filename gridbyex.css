@@ -1,0 +1,191 @@
+body{
+    background-color: #eee;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif;;
+}
+header{
+    height: 250px;
+    background-color: black ;
+    color: white;
+}
+.head{
+    background-color: darkgray;
+    color:black;
+    font-weight: 700;
+    height: 50px; 
+    width: 100%;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.border{
+    border: 1px solid transparent;
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    margin-top: 4em;
+    margin-left: 2em;
+}
+.sub{
+    margin-left: 4em;
+    padding-bottom: 20px;
+}
+.grid-head{
+    display: grid; 
+    grid-template-rows: repeat(10, 1fr); 
+}
+.grid-item1{
+    grid-template-rows: span 7;
+    background-image: url(./assets/grid\ img.png);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    grid-gap: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-top: 40px; 
+}
+.item1{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    grid-column: span 2;
+    border-radius: 2px;
+    background:url(./assets/grid\ img.png);
+    color: white;
+}
+.item2{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    background: url(./assets/tiny_grid.png);
+}
+.item3{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    background-color: #5e35b1;
+    color: white;
+    grid-column: span 3;
+}
+.item4{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    grid-column: span 2;
+    position: relative;
+    border-radius: 2px;
+    background: url(./assets/tiny_grid.png);
+}
+.item4::before{
+    content: "New!";
+    position: absolute;
+    padding: 12px;
+    background-color: green;
+    color: white;
+    left:-25px;
+    top: -10px;
+    border-radius: 2px;
+    display: inline-block;
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+}
+.item5{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    background: url(./assets/tiny_grid.png);
+}
+.item6{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    grid-column: span 2;
+    border-radius: 2px;
+    background: url(./assets/tiny_grid.png);
+}
+.item7{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    background: url(./assets/tiny_grid.png);
+}
+.item8{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    background: url(./assets/tiny_grid.png);
+}
+.item9{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    background: url(./assets/tiny_grid.png);
+}
+.item10{
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    background: url(./assets/tiny_grid.png);
+}
+.item11{ 
+    border: 2px solid rgb(195, 193, 193);
+    padding: 10px;
+    margin: 10px; 
+    grid-column: span 3;
+    border-radius: 2px;
+    background: url(./assets/tiny_grid.png);
+}
+.link:hover{
+    display: flex;
+    background-color: rgba(212, 212, 212,0.9); 
+    height: 50px;
+    width: 110px;
+    align-items: center; 
+    justify-content: center;
+    transition-duration: 0.3s;
+    transition-delay: 0.05s;
+}
+.pointer{
+    cursor: pointer;
+    text-decoration: none;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: 600;
+}
+footer{
+    background:url(./assets/grid\ img.png);
+    height: 200px; 
+    padding: 10px;
+}
+.foot{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 170px;
+    background-color: lightgrey;
+    opacity: 0.7;
+   
+}

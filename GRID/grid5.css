@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+    font-family: sans-serif;
+    color: white;  
+}
+.layout{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px auto 50px;  
+    grid-template-areas: 
+      "head head head head head"
+      "sec sec sec side side"  
+      "foot foot foot foot foot";
+} 
+header{
+    background-color: lightskyblue;
+    grid-area: head;
+} 
+section{
+    background-color: orangered;
+    grid-area: sec;
+}
+aside{
+    background-color: gray;
+    grid-area: side;
+}
+footer{
+    background-color: lightseagreen;
+    grid-area: foot;
+}

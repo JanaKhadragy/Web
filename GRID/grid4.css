@@ -1,0 +1,6 @@
+.layout{
+    display: grid;
+    background-color: red;
+    gap: 10 px 10px;
+    font-family: sans-serif;
+}

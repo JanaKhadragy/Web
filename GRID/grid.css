@@ -1,0 +1,33 @@
+/* body{
+    background-image: linear-gradient(to right, black, #EEEEEE, rgb(211, 211, 49) ) ;
+} */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px; 
+    /* grid-template-rows: auto; */
+    /* /* min-height: 800px; */
+    /* margin: 10px; */ 
+    /* grid-gap: 100px 50px; */
+    /* justify-content: space-evenly; */
+    /* align-content: space-evenly; */
+}
+.grid-item{
+    /* background-color: rgba(255, 255, 255, 0.8); */ 
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    /* color: black; */
+    /* font-size: 30px; */
+    /* text-align: center; */
+    /* width:400px; */
+    /* line-height: 200px;  */
+    /* margin: 5px;  */
+    cursor:grab;
+}
+::selection{
+    background-color: pink;
+    color:blueviolet;
+}
